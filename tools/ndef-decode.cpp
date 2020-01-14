@@ -21,7 +21,11 @@
 #include <QDebug>
 #include <QStringList>
 #include <QFile>
- 
+#include <QTextStream>
+#include <QFile>
+#include <QDataStream>
+
+
 #include <ndef/ndefmessage.h>
 
 QTextStream out(stdout);
